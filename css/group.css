@@ -114,7 +114,8 @@
     width: 320px;
     height: 320px;
     margin-left: 110px;
-    margin-bottom: 130px; }
+    margin-top: 30px;
+    margin-bottom: 100px; }
   
   .blastoise_gif {
     width: 320px;
@@ -126,19 +127,22 @@
     width: 320px;
     height: 320px;
     margin-left: 110px;
-    margin-bottom: 130px; }
+    margin-top: 50px;
+    margin-bottom: 80px; }
   
   .mewtwo_gif {
     width: 320px;
     height: 320px;
-    margin-left: 110px;
-    margin-bottom: 130px; }
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 80px; }
   
   .rayquaza_gif {
     width: 320px;
     height: 320px;
-    margin-left: 110px;
-    margin-bottom: 130px; }
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-bottom: 80px; }
   
   /*# sourceMappingURL=main.css.map */
   
