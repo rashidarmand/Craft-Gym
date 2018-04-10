@@ -50,7 +50,6 @@ axios.get("https://pokeapi.co/api/v2/pokemon/2/")
         pokeData.stats[3].base_stat,
         pokeData.abilities[0].ability.name + ", " + pokeData.abilities[1].ability.name
     )
-    console.log(ivysaur)
 
     professor.add(ivysaur)
 
@@ -94,7 +93,6 @@ axios.get("https://pokeapi.co/api/v2/pokemon/6/")
         pokeData.stats[3].base_stat,
         pokeData.abilities[0].ability.name + ", " + pokeData.abilities[1].ability.name
     )
-    console.log(charizard)
 
     professor.add(charizard)
 
@@ -138,7 +136,6 @@ axios.get("https://pokeapi.co/api/v2/pokemon/9/")
         pokeData.stats[3].base_stat,
         pokeData.abilities[0].ability.name + ", " + pokeData.abilities[1].ability.name
     )
-    console.log(blastoise)
 
     professor.add(blastoise)
 

@@ -93,9 +93,6 @@ axios.all([
 
 let pokemonData = response.data
 
-// let mewtwoUL = document.querySelector("#mewtwo")
-// let mewUL = document.querySelector("#mew")
-// let rayquazaUL = document.querySelector("#rayquaza")
 let name = document.createElement("li")
 let hp = document.createElement("li")
 let attack = document.createElement("li")
@@ -123,17 +120,7 @@ let pokemon = new Pokemon(
 
 )
 
-// pokemonData.abilities.forEach((element) => {
-//     pokemon.abilities.push(element.ability['name']);
-//   })
-
   ivan.party.push(pokemon)
-
-//   let mewtwoUL = document.querySelector("#mewtwo")
-//   let mewUL = document.querySelector("#mew")
-//   let rayquazaUL = document.querySelector("#rayquaza")
-//   pokemonCard = [mewtwoUL, mewUL, rayquazaUL];
-//   myPokemon = ['mewtwo', 'mew', 'rayquaza']
 
 let cardInsert = document.querySelector(`#${pokemon.name}`)
 
