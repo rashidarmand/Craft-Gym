@@ -28,10 +28,16 @@
   /* -----------------------------trainer image manipulation------------ */
   .ivan_image {
     margin-top: 5px;
+    animation: fadeInDown;
+    animation-fill-mode: forwards;
+    animation-duration: 2.8s;
   }
 
   .coak_image {
     margin-top: 5px;
+    animation: fadeInDown;
+    animation-fill-mode: forwards;
+    animation-duration: 2.8s;
   }
   /* ---------------------------Gym Trainer Stats manipulation---------- */
   .trainer_stats  {
@@ -149,3 +155,32 @@
   
   /*# sourceMappingURL=main.css.map */
   
+
+  @keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-100%);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }  
+ 
+ @keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-100%);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }   
+
+
+ header{
+     animation: fadeInLeft;
+     animation-fill-mode: forwards;
+     animation-duration: 2.2s;
+ }
