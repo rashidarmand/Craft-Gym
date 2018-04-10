@@ -1,7 +1,7 @@
 .main-section {
-    background-image: url("../image/pallet_town2_blur.png");
+    background-image: url("../background_image/minecraft_pokemon_stadium.jpg");
     background-attachment: fixed;
-    /* background-size: cover; */ }
+    background-size: cover; }
   
   header {
     display: flex;
@@ -25,6 +25,22 @@
     flex-direction: column;
     justify-content: center;
     text-align: center; }
+  /* -----------------------------trainer image manipulation------------ */
+  .ivan_image {
+    margin-top: 5px;
+  }
+
+  .coak_image {
+    margin-top: 5px;
+  }
+  /* ---------------------------Gym Trainer Stats manipulation---------- */
+  .trainer_stats  {
+    text-align: center;
+    background-color: rgb(90, 88, 91); 
+    padding: 15px;
+    border-radius: 20px;
+    
+}
   
   /* added curves to pokemon cards  || card manipulations*/
   .card {
@@ -48,24 +64,11 @@
     margin-bottom: 0; }
   
   /*  */
-  /* .section-1{
-      display: flex;
-      flex-direction: row;
+  .section-1{
+    margin-bottom: 10px;
   }
   
-  .trainer_image{
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-  }
-  
-  .trainer_stats{
-      display: flex;
-      flex-grow: 5;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-  } */
+
   /* footer */
   .footer {
     display: flex;
@@ -89,20 +92,21 @@
   .coke_title {
     color: white;
     font-family: 'Press Start 2P', cursive;
-    font-size: 25px;
+    font-size: 50px;
     text-shadow: 3px 3px black; }
   
   .coke_description {
     color: white;
     font-family: 'Press Start 2P', cursive;
-    font-size: 20px;
+    font-size: 23px;
     text-shadow: 3px 3px black;
     /* border: solid black 10px; */ }
   
   .trainer_coak {
     margin-top: 200px; }
   
-  /* gif manipulation */
+  /* -----------------------------gif manipulation -----------------------------*/
+  /*---------- professor coak's pokemons */
   .ivysaur_gif {
     width: 320px;
     height: 320px;
@@ -113,13 +117,35 @@
     width: 320px;
     height: 320px;
     margin-left: 110px;
-    margin-bottom: 130px; }
+    margin-top: 30px;
+    margin-bottom: 100px; }
   
   .blastoise_gif {
     width: 320px;
     height: 320px;
     margin-left: 110px;
     margin-bottom: 130px; }
+    /*----------- Ivan's pokemons --------*/
+  .mew_gif {
+    width: 320px;
+    height: 320px;
+    margin-left: 110px;
+    margin-top: 50px;
+    margin-bottom: 80px; }
+  
+  .mewtwo_gif {
+    width: 320px;
+    height: 320px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 80px; }
+  
+  .rayquaza_gif {
+    width: 320px;
+    height: 320px;
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-bottom: 80px; }
   
   /*# sourceMappingURL=main.css.map */
   
