@@ -102,7 +102,8 @@
   .trainer_coak {
     margin-top: 200px; }
   
-  /* gif manipulation */
+  /* -----------------------------gif manipulation -----------------------------*/
+  /*---------- professor coak's pokemons */
   .ivysaur_gif {
     width: 320px;
     height: 320px;
@@ -116,6 +117,24 @@
     margin-bottom: 130px; }
   
   .blastoise_gif {
+    width: 320px;
+    height: 320px;
+    margin-left: 110px;
+    margin-bottom: 130px; }
+    /*----------- Ivan's pokemons --------*/
+  .mew_gif {
+    width: 320px;
+    height: 320px;
+    margin-left: 110px;
+    margin-bottom: 130px; }
+  
+  .mewtwo_gif {
+    width: 320px;
+    height: 320px;
+    margin-left: 110px;
+    margin-bottom: 130px; }
+  
+  .rayquaza_gif {
     width: 320px;
     height: 320px;
     margin-left: 110px;
