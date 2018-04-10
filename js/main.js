@@ -4,19 +4,19 @@ class professorCoke {
         this.all = []
     }
 
-    add(pokemon) {
-        this.all.push(pokemon)
+    add(pokemons) {
+        this.all.push(pokemons)
     }
-    get(pokemon){
+    get(pokemons){
         for (let i = 0; i < this.all.length; i++){
-            if (name === this.all[i].name) {
+            if (this.name === this.all[i].name) {
                 return this.all[i]
             }
         }
     }
 }
 
-class Pokemon {
+class Pokemons {
     constructor(name, hp, attack, defence, abilities) {
         this.name = name
         this.hp = hp
@@ -43,14 +43,13 @@ axios.get("https://pokeapi.co/api/v2/pokemon/2/")
     let defence = document.createElement("li")
     let abilities = document.createElement("li")
 
-    let ivysaur = new Pokemon(
+    let ivysaur = new Pokemons(
         pokeData.name,
         pokeData.stats[5].base_stat,
         pokeData.stats[4].base_stat,
         pokeData.stats[3].base_stat,
         pokeData.abilities[0].ability.name + ", " + pokeData.abilities[1].ability.name
     )
-    console.log(ivysaur)
 
     professor.add(ivysaur)
 
@@ -87,14 +86,13 @@ axios.get("https://pokeapi.co/api/v2/pokemon/6/")
     let defence = document.createElement("li")
     let abilities = document.createElement("li")
 
-    let charizard = new Pokemon(
+    let charizard = new Pokemons(
         pokeData.name,
         pokeData.stats[5].base_stat,
         pokeData.stats[4].base_stat,
         pokeData.stats[3].base_stat,
         pokeData.abilities[0].ability.name + ", " + pokeData.abilities[1].ability.name
     )
-    console.log(charizard)
 
     professor.add(charizard)
 
@@ -131,14 +129,13 @@ axios.get("https://pokeapi.co/api/v2/pokemon/9/")
     let defence = document.createElement("li")
     let abilities = document.createElement("li")
 
-    let blastoise = new Pokemon(
+    let blastoise = new Pokemons(
         pokeData.name,
         pokeData.stats[5].base_stat,
         pokeData.stats[4].base_stat,
         pokeData.stats[3].base_stat,
         pokeData.abilities[0].ability.name + ", " + pokeData.abilities[1].ability.name
     )
-    console.log(blastoise)
 
     professor.add(blastoise)
 
@@ -171,4 +168,3 @@ axios.get("https://pokeapi.co/api/v2/pokemon/9/")
     // console.log(blastoise) 
 })
 
-console.log(professor.all)
